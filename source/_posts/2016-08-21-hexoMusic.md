@@ -1,10 +1,10 @@
 ---
 title: 【Hexo博客系列一】如何插入音乐
 categories:
-  - iOS开发
+  - 博客搭建
 tags:
-  - iOS开发
-  - hexo
+  - Hexo
+  - 博客
 date: 2016-08-21 21:57:05
 ---
 
@@ -33,6 +33,13 @@ date: 2016-08-21 21:57:05
 ```
 > <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=3&id=10002034&auto=1&height=66"></iframe> -->
 (这里先去掉这个背景音乐)    
+
+
+## 生成虾米播播
+```
+<embed src="http://www.xiami.com/widget/0_1773365643,_235_346_FF8719_494949/multiPlayer.swf" type="application/x-shockwave-flash" width="235" height="346" wmode="opaque"></embed>
+```
+![xiaMiBoBo](http://ob6otnqbf.bkt.clouddn.com/3a3caa9f29ff803989187d1589d21bb3.png)
 
 
 

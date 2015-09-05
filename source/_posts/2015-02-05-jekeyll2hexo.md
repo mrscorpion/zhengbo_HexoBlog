@@ -9,6 +9,8 @@ tags:
 date: 2015-02-05 21:25:11
 ---
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=2&id=64634&auto=1&height=66"></iframe>
+
 # Mac下安装nodejs 和 npm ＋
 ## 如果输入指令遇到如下问题：
 ```
