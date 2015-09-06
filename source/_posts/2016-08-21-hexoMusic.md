@@ -1,5 +1,5 @@
 ---
-title: 【Hexo博客系列一】如何插入音乐
+title: 【Hexo博客系列四】如何插入音乐
 categories:
   - 博客搭建
 tags:
@@ -13,7 +13,7 @@ date: 2016-08-21 21:57:05
 
 
 # 插入音乐
-主要分为两种模式，下面以网易云音乐为例，其他音乐均类似：
+主要分为两种模式，下面以网易云音乐为例，另附虾米播播和音悦台外链使用：
 
 
 ## 外链播放器
@@ -41,6 +41,17 @@ date: 2016-08-21 21:57:05
 ```
 ![xiaMiBoBo](http://ob6otnqbf.bkt.clouddn.com/3a3caa9f29ff803989187d1589d21bb3.png)
 
+
+## 音悦台外链
+<object id='splayer' width='480' height='370' ><param name='allowScriptAccess' value='always' /><embed pluginspage='http://www.macromedia.com/go/getflashplayer' src='http://www.yinyuetai.com/swf/player.swf?videoId=377853&simple=true' type='application/x-shockwave-flash' name='splayer' allowFullScreen='true' allowScriptAccess='always' width='480' height='370'></embed></object>
+
+[我想我是海](http://v.yinyuetai.com/video/377853)
+
+```
+videoId=377853 是视频的调用ID，打开一个音悦台MV播放页面，查看此页的网址即可看出后面的，就是此MV视频的调用ID，复制添加到videoId= 后面就可以了。
+此代码是默认自动播放的，如果不想自动播放就在 videoId=137771 后面加上 &autostart=false 意思是不自动播放，如果想自动播放，直接删除此参数或者把false 改成true 参数。
+播放器默认是带有分享按钮功能的，如果想去除，只需在videoId=137771 后面加上&simple=true 参数。
+```
 
 
 # 更多相关
