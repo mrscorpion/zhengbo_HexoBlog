@@ -46,7 +46,14 @@ date: 2015-06-05 20:05:08
 * 语言 ：Swift
 [Github](https://github.com/mrscorpion/MSBlank)
 
+### 图示
+![Blank](http://7xswux.com1.z0.glb.clouddn.com/MSBlank.gif)
+
+
 ## Anjo （即梦安城）
 * 语言 ：objectiveC
 [Anjo博文](http://mrscorpion.github.io/2016/09/01/Anjo/)
 [Github](https://github.com/mrscorpion/MSAnjoDemo1)
+
+### 图示
+![VerticalContainer](http://7xswux.com1.z0.glb.clouddn.com/wangQuanShang.png)
