@@ -1,5 +1,5 @@
 ---
-title: CocoaPodQA
+title: CocoaPodsQA
 categories:
   - iOS开发
 tags:
@@ -11,11 +11,11 @@ date: 2014-11-20 14:59:20
 # CocoaPods常见报错
 ## The dependency 'xxx' is not used in any concrete target
 修改Podfile：
-```
+```vim
 vim podfile
 ```
 
-```objectivec
+```vim
 platform:ios,'7.0'
 target "MyTarget" do
 pod 'MJRefresh', '~> 3.1.0'
@@ -27,7 +27,6 @@ end
 在Podfile文件中需要明确指出使用第三方库的target。
 
 > 补充图示：
-
 ![dependency](/Users/mr.scorpion/Desktop/Snip20160802_10.png)
 
 
@@ -38,7 +37,7 @@ end
 
 ### 修改Podfile：
 
-```objectivec
+```vim
 platform :ios, ‘8.0’
 use_frameworks!
 def pods
