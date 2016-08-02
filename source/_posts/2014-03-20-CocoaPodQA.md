@@ -4,7 +4,7 @@ categories:
   - iOS开发
 tags:
   - iOS开发
-  - CocoaPod
+  - CocoaPods
 date: 2014-11-20 14:59:20
 ---
 
