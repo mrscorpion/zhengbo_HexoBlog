@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
+title: Mr Scorpion
+subtitle: 致给远方的大海 / 只言片语
+description: The Less, The More
+author: Mr Scorpion
 language: zh-Hans
 timezone:
 
@@ -16,6 +16,12 @@ url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+avatar: http://7xswux.com1.z0.glb.clouddn.com/mrscorpion.png
+
+# Search
+search:
+  path: search.xml
+  field: post
 
 # Directory
 source_dir: source
