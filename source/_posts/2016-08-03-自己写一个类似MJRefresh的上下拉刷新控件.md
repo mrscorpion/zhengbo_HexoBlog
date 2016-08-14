@@ -2,7 +2,10 @@
 layout: post
 title: "制作自己的下拉刷新动画"
 categories: iOS开发
-keywords: iOS开发,下拉刷新
+keywords: iOS开发, 下拉刷新
+tags:
+  - iOS
+  - Git
 ---
 
 实现原理:
