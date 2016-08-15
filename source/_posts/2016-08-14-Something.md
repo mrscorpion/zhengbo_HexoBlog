@@ -1,7 +1,7 @@
 ---
 title: 《有些》
-categories: 即梦安城
-keywords: 有些, 原创诗歌
+categories:
+  - 《即梦安城》
 tags:
   - 原创诗歌
   - 有些
