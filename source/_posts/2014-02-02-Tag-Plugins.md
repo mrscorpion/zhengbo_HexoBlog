@@ -9,6 +9,17 @@ tags:
 date: 2014-02-02 20:11:02
 ---
 
+# 切换本地预览端口
+```
+Port 4000 has been used. Try other port instead.
+```
+- 从本地端口4000切换成4001
+![localPost](http://ob6otnqbf.bkt.clouddn.com/91460bec02bcd912767c37d009bcb825.png)
+- 使用指令
+```
+hexo s -p 4001
+```
+
 # 标签插件（Tag Plugins）
   标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。
 
