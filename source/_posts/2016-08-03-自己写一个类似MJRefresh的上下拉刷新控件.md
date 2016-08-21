@@ -16,7 +16,7 @@ tags:
 
 首先写一个scrollView的分类, 在分类中给scrollView添加两个属性zj_refreshHeader和zj_refreshFooter用来存取header和footer刷新控件, 这里有两种方法可以实现
 1, 使用运行时
-
+```swift
 private var ZJHeaderKey: UInt8 = 0
 private var ZJFooterKey: UInt8 = 0
 extension UIScrollView {
@@ -37,6 +37,8 @@ extension UIScrollView {
         }
     }
 }
+```
+
 2, 使用tag来存取
 
 private var ZJHeaderTag = 1994
