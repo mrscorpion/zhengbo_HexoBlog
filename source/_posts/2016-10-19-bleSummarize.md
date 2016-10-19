@@ -44,6 +44,8 @@ make for ipad ,iphone, itouch 专们为苹果设备制作的设备。
 bluetooth low energy，蓝牙4.0设备因为低耗电，所以也叫做BLE。
 iOS开发使用CoreBluetooth 框架。
 
+<br>
+<hr>
 ## Android蓝牙开发
 ### BlueZ
 Linux 官方蓝牙协议栈，Android4.2 之前
@@ -57,6 +59,7 @@ Linux 官方蓝牙协议栈，Android4.2 之前
 * 相比 BlueZ，BlueDroid 框架结构更为简洁清晰。
 * 借助 HAL（Hardware Abstraction Layer，硬件抽象层），BlueDroid 不再和 dbus 有任何瓜葛。
 
+<br>
 ### Android 蓝牙总体架构
 * 应用框架层 Application framework
 * 蓝牙系统服务 Bluetooth system service
@@ -65,13 +68,17 @@ Linux 官方蓝牙协议栈，Android4.2 之前
 * 蓝牙协议栈 Bluetooth Stack
 * 供应商扩展 Vendor extentions
 
+<br>
+<hr>
 ## iOS蓝牙开发
+
 ### CoreBluetooth框架
 核心：peripheral和central, 可以理解成外设和中心。
+
 #### 业务场景
 * 中心模式 ： 以app作为中心，连接其他的外设。
 
-中心模式流程
+##### 中心模式流程
 1. 建立中心角色
 2. 扫描外设（discover）
 3. 连接外设(connect)
@@ -82,6 +89,7 @@ Linux 官方蓝牙协议栈，Android4.2 之前
 6. 订阅Characteristic的通知
 7. 断开连接(disconnect)
 
+<br>
 * 外设模式 ： 使用手机作为外设别其他中心设备操作。
 1. 启动一个Peripheral管理对象
 2. 本地Peripheral设置服务,特性,描述,权限等等
@@ -98,7 +106,22 @@ MFI认证设备（Make For ipod/ipad/iphone）：无限制
 * [iOSBLEDemo]()
 
 
-## 参考：
+<br><br>
+<hr>
+## 拓展
+蓝牙开发专题系列
+* [蓝牙开发系列七]()
+* [蓝牙开发系列六]()
+* [蓝牙开发系列五]()
+* [蓝牙开发系列四](http://www.jianshu.com/p/185f4ed5b340)
+* [蓝牙开发系列三]()
+* [蓝牙开发系列二]()
+* [蓝牙开发系列一](http://www.jianshu.com/p/7ba443878e7d)
+
+
+<br><br>
+<hr>
+## 参考
 * [蓝牙核心协议文档](https://www.bluetooth.com/specifications/adopted-specifications)
 * [基于 GATT 的规格](https://www.bluetooth.com/specifications/adopted-specifications#gattspec)
 * [Bluedroid的结构和代码分布](http://blog.sina.com.cn/s/blog_69b5d2a50101f2ew.html)
